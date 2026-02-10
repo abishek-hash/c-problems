@@ -1,0 +1,24 @@
+/******************************************************************************
+Compare two numbers using <.
+Test Case 1
+Input: 5 10
+Output: 1
+Test Case 2
+Input: 9 2
+Output: 0
+Test Case 3
+Input: 4 4
+Output: 0
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+    int x,y,values;
+    scanf("%d %d",&x,&y);
+    printf("%d",x<y);
+    
+
+    return 0;
+}
