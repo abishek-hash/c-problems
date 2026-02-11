@@ -1,0 +1,22 @@
+/******************************************************************************
+Use += operator.
+Test Case 1
+Input: 10 5
+Output: 15
+Test Case 2
+Input: 3 7
+Output: 10
+Test Case 3
+Input: 0 4
+Output: 4
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    scanf("%d %d",&a,&b);
+    a+=b;
+    printf("%d",a);
+    return 0;
+}
