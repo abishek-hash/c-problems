@@ -1,0 +1,39 @@
+//Day of Week
+//Input: 3
+//Output: Wednesday
+//Explanation: Each number mapped to a day using switch//
+
+
+#include <stdio.h>
+int main()
+{
+    int day;
+    scanf("%d",&day);
+    switch(day)
+    {
+    case 1:
+     printf(" Monday");
+    break;
+    case 2:
+     printf("Tuesday");
+    break;
+    case 3:
+     printf("Wednesday");
+    break;
+    case 4:
+     printf("Thursday");
+    break;
+    case 5:
+     printf("Friday");
+    break;
+    case 6:
+     printf("Saturday");
+    break;
+    case 7:
+     printf("Sunday");
+    break;
+    default:
+     printf("Invalid condition\n Enter a number with in 1-7");
+    return 0;
+    }
+}
